@@ -1,0 +1,72 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADMINS	dhsrv/settings.py	/^ADMINS = ($/;"	v
+DATABASES	dhsrv/settings.py	/^DATABASES = {$/;"	v
+DEBUG	dhsrv/settings.py	/^DEBUG = True$/;"	v
+Http404	xyx/views.py	/^from django.http import HttpResponse,Http404$/;"	i
+HttpResponse	xyx/views.py	/^from django.http import HttpResponse,Http404$/;"	i
+INSTALLED_APPS	dhsrv/settings.py	/^INSTALLED_APPS = ($/;"	v
+LANGUAGE_CODE	dhsrv/settings.py	/^LANGUAGE_CODE = 'zh-CN'$/;"	v
+LOGGING	dhsrv/settings.py	/^LOGGING = {$/;"	v
+MANAGERS	dhsrv/settings.py	/^MANAGERS = ADMINS$/;"	v
+MEDIA_ROOT	dhsrv/settings.py	/^MEDIA_ROOT = ''$/;"	v
+MEDIA_URL	dhsrv/settings.py	/^MEDIA_URL = ''$/;"	v
+MIDDLEWARE_CLASSES	dhsrv/settings.py	/^MIDDLEWARE_CLASSES = ($/;"	v
+ROOT_URLCONF	dhsrv/settings.py	/^ROOT_URLCONF = 'dhsrv.urls'$/;"	v
+SITE_ID	dhsrv/settings.py	/^SITE_ID = 1$/;"	v
+STATICFILES_DIRS	dhsrv/settings.py	/^STATICFILES_DIRS = ($/;"	v
+STATICFILES_FINDERS	dhsrv/settings.py	/^STATICFILES_FINDERS = ($/;"	v
+STATIC_ROOT	dhsrv/settings.py	/^STATIC_ROOT = ''$/;"	v
+STATIC_URL	dhsrv/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+SimpleTest	xyx/tests.py	/^class SimpleTest(TestCase):$/;"	c
+TEMPLATE_DEBUG	dhsrv/settings.py	/^TEMPLATE_DEBUG = DEBUG$/;"	v
+TEMPLATE_DIRS	dhsrv/settings.py	/^TEMPLATE_DIRS = ($/;"	v
+TEMPLATE_LOADERS	dhsrv/settings.py	/^TEMPLATE_LOADERS = ($/;"	v
+TIME_ZONE	dhsrv/settings.py	/^TIME_ZONE = 'Asia\/Chongqing'$/;"	v
+TestCase	xyx/tests.py	/^from django.test import TestCase$/;"	i
+USE_I18N	dhsrv/settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	dhsrv/settings.py	/^USE_L10N = True$/;"	v
+USE_TZ	dhsrv/settings.py	/^USE_TZ = True$/;"	v
+WSGI_APPLICATION	dhsrv/settings.py	/^WSGI_APPLICATION = 'dhsrv.wsgi.application'$/;"	v
+admin	dhsrv/urls.py	/^from django.contrib import admin$/;"	i
+admin	xyx/urls.py	/^from django.contrib import admin$/;"	i
+application	dhsrv/wsgi.py	/^application = get_wsgi_application()$/;"	v
+cate	xyx/views.py	/^def cate(request,cid):$/;"	f
+cd	fabfile.py	/^from fabric.api import local,settings,run,cd$/;"	i
+confirm	fabfile.py	/^from fabric.contrib.console import confirm$/;"	i
+deploy	fabfile.py	/^def deploy():$/;"	f
+detail	xyx/views.py	/^def detail(request,gid):$/;"	f
+execute_from_command_line	manage.py	/^    from django.core.management import execute_from_command_line$/;"	i
+get_wsgi_application	dhsrv/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	i
+git_add	fabfile.py	/^def git_add(file='.'):$/;"	f
+git_commit	fabfile.py	/^def git_commit():$/;"	f
+git_init	fabfile.py	/^def git_init():$/;"	f
+git_push	fabfile.py	/^def git_push():$/;"	f
+home	xyx/views.py	/^def home(request):$/;"	f
+include	dhsrv/urls.py	/^from django.conf.urls import patterns, include, url$/;"	i
+include	xyx/urls.py	/^from django.conf.urls import patterns, include, url$/;"	i
+local	fabfile.py	/^from fabric.api import local,settings,run,cd$/;"	i
+models	xyx/models.py	/^from django.db import models$/;"	i
+os	dhsrv/settings.py	/^import os.path$/;"	i
+os	dhsrv/wsgi.py	/^import os$/;"	i
+os	manage.py	/^import os$/;"	i
+path	dhsrv/settings.py	/^import os.path$/;"	i
+patterns	dhsrv/urls.py	/^from django.conf.urls import patterns, include, url$/;"	i
+patterns	xyx/urls.py	/^from django.conf.urls import patterns, include, url$/;"	i
+prepare_deploy	fabfile.py	/^def prepare_deploy():$/;"	f
+run	fabfile.py	/^from fabric.api import local,settings,run,cd$/;"	i
+search	xyx/views.py	/^def search(request,keyword):$/;"	f
+settings	fabfile.py	/^from fabric.api import local,settings,run,cd$/;"	i
+sys	manage.py	/^import sys$/;"	i
+test	fabfile.py	/^def test(name='admin'):$/;"	f
+test_basic_addition	xyx/tests.py	/^    def test_basic_addition(self):$/;"	m	class:SimpleTest
+topic	xyx/views.py	/^def topic(request,tid):$/;"	f
+url	dhsrv/urls.py	/^from django.conf.urls import patterns, include, url$/;"	i
+url	xyx/urls.py	/^from django.conf.urls import patterns, include, url$/;"	i
+urlpatterns	dhsrv/urls.py	/^urlpatterns = patterns('',$/;"	v
+urlpatterns	xyx/urls.py	/^urlpatterns = patterns('',$/;"	v
+with_statement	fabfile.py	/^from __future__ import with_statement$/;"	i
