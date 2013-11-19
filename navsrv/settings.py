@@ -1,4 +1,5 @@
-# Django settings for dhsrv project.
+# Django settings for navsrv project.
+import os.path
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -12,7 +13,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'dhsrv',                      # Or path to database file if using sqlite3.
+        'NAME': 'navsrv',                      # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
         'USER': 'root',
         'PASSWORD': 'root',
@@ -98,15 +99,18 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'dhsrv.urls'
+ROOT_URLCONF = 'navsrv.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'dhsrv.wsgi.application'
+WSGI_APPLICATION = 'navsrv.wsgi.application'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+    os.path.join(os.path.dirname(__file__), 'templates').replace('\\','/'),
+    os.path.join(os.path.dirname(__file__), '..', 'templates').replace('\\','/'),
+    os.path.join(os.path.dirname(__file__), '..', 'templates','xyx').replace('\\','/'),
 )
 
 INSTALLED_APPS = (
