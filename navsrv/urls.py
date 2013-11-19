@@ -13,6 +13,8 @@ urlpatterns = patterns('',
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
+    url(r'^$', 'navsrv.views.home', name='home'),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^xyx/', include('xyx.urls')),
+    url(r'^xyx/', include('navsrv.xyx.urls')),
+    #url(r'^image/', include('navsrv.image.urls')),
 )
