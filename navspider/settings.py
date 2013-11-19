@@ -12,4 +12,8 @@ SPIDER_MODULES = ['navspider.spiders']
 NEWSPIDER_MODULE = 'navspider.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'navspider (+http://www.yourdomain.com)'
+USER_AGENT = 'navspider (+http://hao.dongyuezhao.cn)'
+
+
+import os
+os.environ['DJANGO_SETTINGS_MODULE'] = 'navsrv.settings'
