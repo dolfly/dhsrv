@@ -1,3 +1,7 @@
 *.pyc
 *.swp
 *.pyo
+.Python
+bin/*
+include/*
+lib/*
