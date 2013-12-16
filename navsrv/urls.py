@@ -2,6 +2,9 @@ from django.conf.urls import patterns, include, url
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
+from navsrv.views import HomeView
+
+
 admin.autodiscover()
 
 urlpatterns = patterns('',
@@ -10,11 +13,12 @@ urlpatterns = patterns('',
     # url(r'^navsrv/', include('navsrv.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
-    # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
+    url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
-    url(r'^$', 'navsrv.views.home', name='home'),
+    #url(r'^$', TemplateView.as_view(template_name="home/home.vm")),
+    url(r'^$', HomeView.as_view()),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^xyx/', include('navsrv.xyx.urls')),
-    #url(r'^image/', include('navsrv.image.urls')),
+    url(r'^xyx/', include("navapp.xyx.urls")),
+    # url(r'^image/', include('navapp.image.urls')),
 )
