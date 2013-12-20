@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+#search #logo
+{
+	background:url(../img/logo.png) no-repeat 0 0;
+}
+/*  @background-img
+------------------------------------------------------------------------------------------------*/
+#background .bg-inner
+{
+	background:url(../img/blue-bg.png) no-repeat center 0;
+}
+#background .bg-outer
+{
+	background-color:transparent;
+}
+
+
+/*  @pur
+------------------------------------------------------------------------------------------------*/
+.date-item .datepic-pur,.daywearher a:hover .top-hover,.skinBtn .skin-pur,.userWrap .msg-pur,ul.cityList li:hover a.closed,ul.cityList li a.closed:hover,.today-f,.today-s,.mainTab-list li.select a,.skinBtn .back-pur
+{
+	background-image:url(../img/pur-sprite.png);
+}
+.weather-item .weapic-pur
+{
+	background-image:url(../img/weather-icon.png);
+	/**background-image:url(../img/pur-sprite-wea.png);**/
+}
+.pur
+{
+	color:#fff;
+}
+ul.cityList li.select .cityName
+{
+	border-bottom:2px solid #fff;
+}
+#mainTab
+{
+	border-left:1px solid #E6E6E6;
+	border-right:1px solid #E6E6E6;
+}
+.hot-site,.cool-site,.rightSeciton
+{
+	border-color:#D8D8D8 #D8D8D8 #C5C5C5;
+}
+#bottom-footer
+{
+	background-color:#f2f2f2;
+}
+
+/*  @color
+------------------------------------------------------------------------------------------------*/
+.userWrap .color,.searchBtn,.searchBtn:hover,.front,.hot-artcle-open-tit,.city-subassBtn a,.theme-btn a,#mainTab,.mainTab-list li a,.inft-subicon,.bmft-subcaption,.rightSeciton .caption .tool-icon,.yxzq-caption .tit,.side-box a.save
+{
+	background-image:url(../img/blue.png);
+}
+.daywearher a.color:hover
+{
+	background:url(../img/blue-top-hover.png) no-repeat right 0;
+	box-shadow:inset 0px 0px 0px 1px rgba(79,133,194,0.6);
+	zoom:1;
+	cursor:pointer;
+}
+.searchTab li.select a,.searchTab li.select a:hover
+{
+	background-color:#609ce6;
+	color:#fff;
+}
+.searchTab li a:hover
+{
+	background-color:#e6e6e6;
+	color:#184278;
+}
+.searchInput:hover,.searchEngine .searchEngine-ul
+{
+	border:1px solid #609ce6;
+}
+.searchInput:hover
+{
+	border-right:none;
+}
+.hot-artcle-open
+{
+	border:2px solid #5c97de;
+	background:#fff;
+}
+.daywearher-Tips,.cityadd-Tips
+{
+	border:1px solid #4589d8;
+	border-top:none;
+}
+.tipsCW-info
+{
+	background-color:#72a9ec;
+}
+.cityAdd,.chaoW-tab-list li.select a,.chaoW-tab-list li.select a:hover
+{
+	background-color:#5c97de;
+}
+.cityAdd:hover
+{
+	background-color:#3d78bf;
+}
+.cityadd-Tips .back
+{
+	color:#407bc6;
+}
+.theme-preview .list li.select a
+{
+	border:3px solid #197af1;
+}
+.theme-notice
+{
+	background:#2e4b6f;
+}
+.theme-bghover
+{
+	background:#197af1;
+}
+.mainTab-list li a:hover,.videoBox-list li em
+{
+	color:#5c97de;
+}
+.hot-siteTab-ul li a:hover,.hot-siteTab-ul li:hover a,.rightSeciton .tool-name,.chaoW-tab-list li a:hover
+{
+	color:#1864c7;
+}
+.cool-item .subtit a,.jw-his li a,.mail-more .list a,.xz-introSec .more
+{
+	color:#407bc6;
+}
+.inft-subcaption
+{
+	color:#407bc6;
+}
+.chaoW-tab-list li.select a,.chaoW-tab-list li.select a:hover
+{
+	border:1px solid #528cd6;
+}
+.xz-img
+{
+	background-image:url(../img/blue-xz.png);
+}
+.searchTab li a
+{
+	color:#6983a5;
+}
+.searchInput
+{
+	border-left:1px solid #d9d9d9;
+	border-bottom:1px solid #d9d9d9;
+	border-top:1px solid #b5b5b5;
+}
+.hot-artcle .closed a
+{
+	color:#6983A5;
+}

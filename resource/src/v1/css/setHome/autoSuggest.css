@@ -1,0 +1,134 @@
+.ac_results {
+	padding: 0px;
+	border: 1px solid #B1C7D8;
+	background-color: white;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px 0 10px;
+	/*cursor: default;*/
+	display: block;
+	/**width: 70%;**/
+	/**font: menu;**/
+	font-size: 14px;
+	line-height: 30px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.ac_loading {
+	/*background: white url('../images/icons/indicator.gif') right center no-repeat;*/
+}
+
+.ac_odd {
+	/*background-color: #eee;*/
+}
+
+.ac_over {
+	background-color: #e2f0ff;
+	color: #ff0000;
+}
+
+/** mystyle */
+
+
+
+/*.select a{
+	color:#ffffff;
+}
+ul.searchTab li.select a:hover
+{
+	background: url("../img/sprite-structure.png") no-repeat scroll 0 -125px transparent;
+}*/
+
+.sosoEngin{
+	background:url(../img/soso.png) no-repeat 0 0;
+}
+.googleEngin{
+	background:url(../img/google.png) no-repeat 0 0;
+}
+.baiduEngin{
+	background:url(../img/baidu.png) no-repeat 0 0;
+}
+.sokuEngin{
+	background:url(../img/soku.png) no-repeat 0 0;
+}
+
+.hide{
+	display:none;
+}
+
+.confirm-city-wrap{
+	position: absolute;
+	width: 232px;
+	border: 1px solid #79bbff;
+	overflow: hidden;
+	background: #f6fcff;
+	padding: 8px 0 8px 10px;
+}
+.selectCity select{
+	height: 22px;
+	line-height: 22px;
+	width: 107px;
+	border: 1px solid #7F9DB9;
+	margin-right: 5px;
+	padding-left: 3px;
+}
+.confirmCity{
+	color: #0A57A3;
+    cursor: pointer;
+}
+.confirm-city-wrap .selectCity{
+	margin-top:7px;
+	_margin-top:3px;
+	_padding-top:3px;
+}
+.confirm-city-button{
+	float:right; 
+	padding-right: 10px;
+}
+.greyFont{
+	color:#666666;
+}
+.comfirm-city-alarm{
+	color:#FF2400;
+	float:left;
+	line-height: 24px;
+}
+.boldFont{
+	font-weight:bold;
+}
+#mailSelectList li a em{
+	float: left;
+    height: 13px;
+    margin: 6px 0 0 4px;
+    width: 13px;
+    background:url(../img/sprite-structure.png) no-repeat 0 -376px;
+}
+#mailUserNameHolder{
+	position:absolute;
+	left: 12px;
+	top: 8px;
+	color:#999;
+	display: inline-block;
+	cursor: text;
+}
+#emailPwdHolder{
+ 	position: absolute;
+ 	bottom: 8px;
+ 	color:#999;
+ 	display: inline-block;
+ 	cursor: text;
+ 	left: 12px;
+ }

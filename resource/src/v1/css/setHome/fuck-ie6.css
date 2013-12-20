@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* CSS Document */
+ul.famous-list li a:hover,ul.famous-list li a.hover
+{
+	color:#F00;
+}
+ul.cool-list li a:hover,ul.cool-list li a.hover
+{
+	color:#F00;
+}
+ul.cool-list>li a.more:hover,ul.cool-list>li a.more.hover
+{
+	color:#F00;
+}
+ul.otherCaption li a:hover,ul.otherCaption li a.hover
+{
+	color:#F00;
+}
+ul.otherList li a:hover,ul.otherList li a.hover
+{
+	color:#F00;
+}
+ul.channel-bar li a:hover,ul.channel-bar li a.hover
+{
+	color:#F00;
+}
+ul.channel-newsList li a:hover,ul.channel-newsLista li a.hover
+{
+	color:#F00;
+}
+ul.channel-videoList li a:hover,ul.channel-videoList li a.hover
+{
+	color:#F00;
+}
+.categoryWrap a.caption:hover,.categoryWrap a.caption.hover
+{
+	color:#F00;
+}
+ul.categoryList li a:hover,ul.categoryList li a.hover
+{
+	color:#F00;
+}
+ul.cool-list li:hover,ul.cool-list li.hover
+{
+	background-color:#e2f0ff;
+	cursor:default;
+}
+/*ul.searchTabMoreList li a:hover,ul.searchTabMoreList li a.hover
+{
+	color:#F00;
+}*/
+.exponent dl dd a:hover,.exponent dl dd a.hover
+{
+	color:#F00;
+}
+.mailSelectList a:hover,.mailSelectList a.hover
+{
+	color:#F00;
+}
+.famous-list-selectList ul.sjjy a:hover,.famous-list-selectList ul.sjjy a.hover
+{
+	color:#F00;
+	text-decoration:none;
+}
+ul.associated-selectList li a:hover,ul.associated-selectList li a.hover
+{
+	color:#F00;
+}
+.game-box .caption a:hover,.game-box .caption a.hover
+{
+	color:#F00;
+}
+.selectBox input.madeSave:hover,.selectBox input.madeSave.hover
+{
+	background:url(./img/sprite-structure.png) no-repeat -62px -317px;
+}
+.selectBox input.madeCancel:hover,.selectBox input.madeSave.hover
+{
+	background:url(./img/sprite-structure.png) no-repeat -62px -365px;
+}
+html
+{
+	background-image:url(about:blank);
+	background-attachment:fixed;
+}
+#top-bar
+{
+	_position:absolute;
+	_bottom:auto;
+	_top:expression(eval(document.documentElement.scrollTop));
+	_margin-top:0px;
+}
+.note-pad
+{
+	_position:absolute;
+	_bottom:auto;
+	_top:expression(eval(document.documentElement.scrollTop));
+}
+ul.user-nav li a.icon
+{
+	_margin-top:-3px;
+}
+ul.user-nav li a.icon span
+{
+	_padding-top:5px;
+}
+ul.user-nav li a.icon1
+{
+	_background-position:-94px -156px;
+	_margin-top:2px;
+}
+ul.user-nav li a.icon2
+{
+	_background-position:-94px -182px;
+	_margin-top:2px;
+}
+ul.user-nav li a.icon3
+{
+	_background-position:-94px -210px;
+	_margin-top:2px;
+}
+ul.user-nav li a.icon1-ur
+{
+	_background-position:0 6px;
+	_margin-top:-5px;
+}
+ul.user-nav li a.icon2-ur
+{
+	_background-position:-91px 6px;
+	_margin-top:-5px;
+}
+ul.user-nav li a.icon3-ur
+{
+	_background-position:0 -30px;
+	_margin-top:-2px;
+}
+.wea img
+{
+	_margin:5px 2px;
+}
+.weatherArea
+{
+	_padding-bottom:0px;
+	_margin-top:-2px;
+}
+.weaInfo
+{
+	_margin-left:15px;
+}
+.mail-panel-input
+{
+	_padding:2px 0 0px 4px;
+}
+.mail-panel-input
+{
+	_padding:2px 0 0px 4px;
+}
+.mailSelectList
+{
+	_right:-2px;
+}
+.mail-login-btn
+{
+	_padding-top:1px;
+}
+ul.searchTab
+{
+	_height:24px;
+}
+ul.searchTab li.select a,ul.searchTab li.select a:hover
+{
+	_background:url(../img/sprite-structure.png) no-repeat 0 -125px;
+}
+.inputBox a
+{
+	_top:4px;
+}
+.inputBox a.ib-searchNo span
+{
+	_position:relative;
+	_font-size:10px;
+	_right: 1px;
+	_top: -1px;
+}
+input.searchSumit
+{
+	_padding-bottom:1px;
+	_top:1px;
+}
+ul.searchRadio li input
+{
+	_margin:-3px;
+}
+ul.channel-bar
+{
+	_padding:10px 0 0px;
+}
+ul.channel-bar li
+{
+	_width:79px;
+}
+ul.channel-newsList li a,ul.channel-videoList li a
+{
+	_height:25px;
+	_line-height:25px;
+}
+ul.channel-videoImg span.title em
+{
+	_left:4px;
+	_top:6px;
+	_height:11px;
+}
+.channelWrap
+{
+	_width:223px;
+	_padding:10px 8px 14px;
+}
+.categoryWrap
+{
+	_padding:9px 13px 10px;
+}
+.categoryWrap a.caption
+{
+	_line-height:16px;
+}
+ul.historyWrap li
+{
+	_margin-right:10px;
+}
+.cool-site
+{
+	_padding:5px 0 4px;
+}
+ul.cool-list
+{
+	_padding:12px 0 11px;
+}
+ul.cool-list li a.more 
+{
+	_top:-1px;
+}
+ul.cool-list li
+{
+	_line-height:29px;
+	_height:29px;
+}
+#footer ul.tencent-bd,#footer ul.helplink,#footer ul.copyright
+{
+	_padding-bottom:10px;
+}
+#goTop
+{
+	_position:absolute;
+	_bottom:auto;
+	_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+	-margin-bottom:100px;
+}
+ul.hot-selectList li span
+{
+	_margin:7px 5px 0 0;
+}
+ul.game-list li
+{
+	_margin:0 6px;
+}

@@ -1,0 +1,63 @@
+<div id="search" class="warp clearfix">
+			<form id="searchForm" target="_black" method="get" action="http://www.soso.com/q?">
+			<div id="logo" title="设置为主页" _stag="dhv1.head.logo"></div>
+			<div class="searchBox">
+				<ul id="searchTab" class="searchTab">
+					<li class="select"><a href="#" _stag="dhv1.so.tab.1" _type="search">网页</a></li>
+					<li><a href="#" _stag="dhv1.so.tab.2" _type="search">新闻</a></li>
+					<li><a href="#" _stag="dhv1.so.tab.3" _type="search">视频</a></li>
+					<li><a href="#" _stag="dhv1.so.tab.4" _type="search">图片</a></li>
+					<li><a href="#" _stag="dhv1.so.tab.5" _type="search">百科</a></li>
+					<li><a href="#" _stag="dhv1.so.tab.6" _type="search">音乐</a></li>
+					<li><a href="#" _stag="dhv1.so.tab.7" _type="search">地图</a></li>
+					<li><a href="#" _stag="dhv1.so.tab.8" _type="search">问答</a></li>
+					<li><a href="#" _stag="dhv1.so.tab.9" _type="search">购物</a></li>
+					<li><a href="#" _stag="dhv1.so.tab.a" _type="search">微博</a></li>
+				</ul>
+				<div class="searchInput">
+					<input id="searchInput" class="searchInput-input" type="text" />
+					<div class="searchEngine"> 
+						<a id="searchEngineLogo" href="javascript:;" target="_self" class="select" onfocus="this.blur()"></a>
+						<ul id="enginChange" class="searchEngine-ul" style="display:none;">
+							#* <li><a href="#" class="enginePic soso"></a></li>
+							<li><a href="#" class="enginePic baidu"></a></li>
+							<li><a href="#" class="enginePic google"></a></li>*#
+						</ul>
+						<span class="engine-toggle down"></span> </div>
+				</div>
+			</div>
+			<input type="submit" value="" class="searchBtn"></input>
+			<!-- hot-artcle展开 -->
+			<div id="hotArtcleOpen" class="hot-artcle hot-artcle-open" style="display:none;">
+				<h3 class="hot-artcle-open-tit">热门搜索</h3>
+				<div style="border-bottom:1px solid #e8e8e8;" class="hapt-border"></div>
+				<ul class="open clearfix" id="ulOpen">
+					<li> <span class="artcle-num front pur">1</span> <a href="#" class="hot-artcle-Cnt"></a> <span class="artcle-order"></span> </li>
+					<li> <span class="artcle-num front pur">2</span> <a href="#" class="hot-artcle-Cnt"></a> <span class="artcle-order"></span> </li>
+					<li> <span class="artcle-num front pur">3</span> <a href="#" class="hot-artcle-Cnt"></a> <span class="artcle-order"></span> </li>
+					<li> <span class="artcle-num">4</span> <a href="#" class="hot-artcle-Cnt"></a> <span class="artcle-order"></span> </li>
+					<li> <span class="artcle-num">5</span> <a href="#" class="hot-artcle-Cnt"></a> <span class="artcle-order"></span> </li>
+					<li> <span class="artcle-num">6</span> <a href="#" class="hot-artcle-Cnt"></a> <span class="artcle-order"></span> </li>
+					<li> <span class="artcle-num">7</span> <a href="#" class="hot-artcle-Cnt"></a> <span class="artcle-order"></span> </li>
+					<li> <span class="artcle-num">8</span> <a href="#" class="hot-artcle-Cnt"></a> <span class="artcle-order"></span> </li>
+					<li> <span class="artcle-num">9</span> <a href="#" class="hot-artcle-Cnt"></a> <span class="artcle-order"></span> </li>
+					<li> <span class="artcle-num">10</span> <a href="#" class="hot-artcle-Cnt"></a> <span class="artcle-order"></span> </li>
+				</ul>
+			</div>
+			<!-- hot-artcle关闭 -->
+			<div id="hotArtcleClosed" class="hot-artcle hot-artcle-closed"  style="display:block;">
+				<ul class="closed" id="ulClosed">
+					<li> <span class="artcle-num front pur">1</span> <a href="#" class="hot-artcle-Cnt"></a> <span class="artcle-order "></span> </li>
+					<li> <span class="artcle-num front pur">2</span> <a href="#" class="hot-artcle-Cnt"></a> <span class="artcle-order"></span> </li>
+					<li> <span class="artcle-num front pur">3</span> <a href="#" class="hot-artcle-Cnt"></a> <span class="artcle-order"></span> </li>
+					<li> <span class="artcle-num front pur">4</span> <a href="#" class="hot-artcle-Cnt"></a> <span class="artcle-order "></span> </li>
+					<li> <span class="artcle-num front pur">5</span> <a href="#" class="hot-artcle-Cnt"></a> <span class="artcle-order "></span> </li>
+					<li> <span class="artcle-num front pur">6</span> <a href="#" class="hot-artcle-Cnt"></a> <span class="artcle-order"></span> </li>
+					<li> <span class="artcle-num front pur">7</span> <a href="#" class="hot-artcle-Cnt"></a> <span class="artcle-order"></span> </li>
+					<li> <span class="artcle-num front pur">8</span> <a href="#" class="hot-artcle-Cnt"></a> <span class="artcle-order"></span> </li>
+					<li> <span class="artcle-num front pur">9</span> <a href="#" class="hot-artcle-Cnt"></a> <span class="artcle-order"></span> </li>
+					<li> <span class="artcle-num front pur">10</span> <a href="#" class="hot-artcle-Cnt"></a> <span class="artcle-order"></span> </li>
+				</ul>
+			</div>
+			</form>
+</div>

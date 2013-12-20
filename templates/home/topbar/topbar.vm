@@ -1,0 +1,71 @@
+<div id="topbar" class="warp">
+	<div class="top-verborder top-verborder-color">
+	</div>
+	<div id="calendarArea" class="daywearher date-item">
+		<a href="javascript:;" target="_self" class="clearfix color pur">
+		<span class="datepic pur datepic-pur">
+			<font id="weekday" class="date-num">
+			</font>
+		</span>
+		<ul>
+			<li class="name">
+				<span id="lunarday" class="name pur"></span>
+			</li>
+			<li>
+				<span id="dateday" class="info info-num pur"></span>
+			</li>
+		</ul>
+		<em class="top-hover"></em>
+		</a>
+	</div>
+	<div class="top-verborder top-verborder-color">
+	</div>
+	<div id="topWeatherArea" class="daywearher weather-item">
+		<a href="#" class="clearfix color pur">
+		<ul class="cityWrap">
+			<li class="name">
+				<span class="name pur"></span>
+			</li>
+			<li>
+				<span class="info pur"></span>
+			</li>
+		</ul>
+		<span class="weapic weapic-pur"></span>
+		<ul>
+			<li class="name">
+				<span class="name pur"></span>
+			</li>
+			<li>
+				<span class="info info-num pur"></span>
+			</li>
+		</ul>
+		<em class="top-hover"></em>
+		</a>
+	</div>
+	<div class="top-verborder top-verborder-color">
+	</div>
+	<!-- 登录 -->
+	<div class="userWrap clearfix">
+		<div id="loginOutArea" class="loginBtn-box ">
+			<a class="loginBtn color" href="#" _stag="dhv1.head.login"></a>
+		</div>
+		<div id="loginedArea" class="userInfo hide">
+			<img src="{{ STATIC_URL }}img/black.gif" class="npchead" />
+			<a class="pur user-name"></a>
+			<a href="#" class="pur exit" _stag="dhv1.head.logout">[退出]</a>
+		</div>
+		<div class="skinBtn clearfix">
+			<span class="skin-icon skin-pur"></span>
+			<a id="changeSkin" class="pur name" href="#" _stag="dhv1.head.skin.detail">换肤</a>
+		</div>
+		<div class="skinBtn clearfix">
+			<span class="msg msg-pur"></span>
+			<a class="pur name" href="http://support.qq.com/write.shtml?fid=542&ADPUBNO=" _stag="dhv1.head.support">反馈</a>
+		</div>
+		<div class="skinBtn clearfix msgBtn"> 
+			<span class="back back-pur"></span> 
+			<a id="backToOld" class="pur name" href="#">回旧版</a>
+		</div>
+	</div>
+	<!-- end -->
+</div>

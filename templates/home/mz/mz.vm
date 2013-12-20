@@ -1,0 +1,70 @@
+<div class="hot-site">
+	<div class="hot-siteTab clearfix">
+		<ul id="mzTab" class="hot-siteTab-ul">
+			<li class="select">
+				<a href="javascript:;" target="_self" _stag="dhv1.mz.tab">名站导航</a>
+			</li>
+			<li>
+				<a href="javascript:;" target="_self" _stag="dhv1.tencent.tab">腾讯专区</a>
+			</li>
+			<li>
+				<a href="javascript:;" target="_self" _stag="dhv1.game.tab">游戏专区</a>
+			</li>
+			<li>
+				<a href="javascript:;" target="_self" _stag="dhv1.mynav.tab">我的导航</a>
+			</li>
+		</ul>
+	</div>
+	<!-- 名站 -->
+	<div class="mz_div chaoW-mz clearfix" style="display:block;">
+		{{ home_mingzhan }}
+		<div class="history clearfix">
+			<div class="history-cap">
+				<span>浏览历史</span>
+				<em id="clearHis" class="history-del" _stag="dhv1.history.del.0"></em>
+			</div>
+			<ul id="historyArea" class="famous-ul jw-his clearfix">
+				
+			</ul>
+		</div>
+	</div>
+	<!-- 名站 end-->
+	<!-- 腾讯专区 -->
+	<div class="mz_div chaoW-txzq clearfix" style="display:none;">
+		{{ home_tencent }}
+	</div>
+	<!-- 腾讯专区 end-->
+	<!-- 游戏专区 -->
+	<div class="mz_div chaoW-yxzq clearfix" style="display:none;">
+		{{hao_qq_home_game_v1}}
+	</div>
+	<!-- 游戏专区 end-->
+	<!-- 我的导航 -->
+	<div id="myNavDov" class="mz_div chaoW-my clearfix" style="display:none;">
+		<div class="nologin madeDiv" style="display:none;">
+			<img height="24" width="358" src="{{ STATIC_URL }}img/black.gif" data-original="{{ STATIC_URL }}img/collect.png" class="center-title collectImg sync">
+			<a href="#" class="madeBtn" _stag="dhv1.mynav.login">登录</a>
+		</div>
+		<div class="nodata madeDiv" style="display:none;">
+			<img height="91" width="530" src="{{ STATIC_URL }}img/black.gif" data-original="{{ STATIC_URL }}img/madeShow.png" class="center-title showImg sync" />
+			<img height="22" width="388" src="{{ STATIC_URL }}img/black.gif" data-original="{{ STATIC_URL }}img/title.png" class="center-title titleImg sync">
+			<a href="#" class="madeBtn" _stag="dhv1.mynav.add.btn">添加</a>
+		</div>
+		<div class="hasdata madeDiv" style="display:none;">
+			<ul class="madeList clearfix">
+				
+				<li>
+					<a class="add" href="#" _stag="dhv1.mynav.add.btn">+&nbsp;新添加网址</a>
+				</li>
+			</ul>
+			<div class="controlBtn">
+				##<a href="#" class="setlink" style="display:block;">删除历史</a>
+				<div class="madeDiv-btn">
+					<a class="madeBtn cancel" href="#" _stag="dhv1.mynav.del.btn">删除</a>
+					<a class="madeBtn finish" href="#" style="display:none;" _stag="dhv1.mynav.del.com">完成</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 我的导航 end-->
+</div>

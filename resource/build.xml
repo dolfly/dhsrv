@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="compress" basedir="." name="build">
+	<!-- 项目的 web 路径 -->
+	<property name="path" value="." />
+	<property name="version" value="v1" />
+	<!-- 部署的输出路径 -->
+	<property name="targetDir" value="output" />
+	<!-- 源文件路径(src) -->
+    <property name="code.src" value="src/${version}" />
+
+    <property name="code.src.script" value="${code.src}/script" />
+    <property name="code.src.css" value="${code.src}/css" />
+    <property name="code.src.img" value="${code.src}/img" />
+
+	<property name="baseService" value="baseService" />
+	<!-- !!! YUI Compressor 路径 !!! -->
+	<property name="yuicompressor" value="tools/yuicompressor-2.4.7.jar" />
+
+   	<!-- ================================= 
+          target: init 
+         ================================= -->
+    <target name="init">
+    </target>
+ 
+	<!-- ================================= 
+          target: concat 拼接（合并）文件        
+         ================================= -->
+
+	<target name="concat" depends="" description="concat code">
+		<echo message="Concat Code Files Begin!!!" />
+        
+		<echo message="Concat Js Files Begin!!!" />
+		<!-- JS -->
+		<concat destfile="${targetDir}/source/${version}/script/hao.js" encoding="utf-8" fixlastline="on">
+
+			<fileset dir="${code.src.script}/util" includes="jqExtend.js" />
+			<fileset dir="${code.src.script}/common" includes="base.js" />
+			<fileset dir="${code.src.script}/common" includes="singleton.js" />
+			<fileset dir="${code.src.script}/common" includes="event.js" />
+			<fileset dir="${code.src.script}/util" includes="lazyLoading.js" />
+			<fileset dir="${code.src.script}/util" includes="lunarCalendar.js" />
+			<fileset dir="${code.src.script}/util" includes="fullCalendar.js" />
+			<fileset dir="${code.src.script}/util" includes="autoSuggest.js" />
+			<fileset dir="${code.src.script}/util" includes="cache.js" />
+			<fileset dir="${code.src.script}/common" includes="template.js" />
+
+			<fileset dir="${code.src.script}/util" includes="storage.js" />
+			<fileset dir="${code.src.script}/util" includes="util.js" />
+			<fileset dir="${code.src.script}/util" includes="placeHolder.js" />
+			<fileset dir="${code.src.script}/util" includes="arrayList.js" />
+			<fileset dir="${code.src.script}/util" includes="selectView.js" />
+			<fileset dir="${code.src.script}/util" includes="tabView.js" />
+			<fileset dir="${code.src.script}/util" includes="ptlogin2.js" />
+			<fileset dir="${code.src.script}/util" includes="mask.js" />
+			<fileset dir="${code.src.script}/util" includes="loopView.js" />
+			<fileset dir="${code.src.script}/util" includes="validator.js" />
+			<fileset dir="${code.src.script}/util" includes="calendarView.js" />
+
+			<fileset dir="${code.src.script}/home/" includes="experience.js" />
+			<fileset dir="${code.src.script}/home/calendar" includes="calendar.js" />
+			<fileset dir="${code.src.script}/home/weather" includes="cityData.js" />
+			<fileset dir="${code.src.script}/home/weather" includes="cityStore.js" />
+			<fileset dir="${code.src.script}/home/weather" includes="cityView.js" />
+			<fileset dir="${code.src.script}/home/weather" includes="weatherModel.js" />
+			<fileset dir="${code.src.script}/home/weather" includes="weatherCtr.js" />
+			<fileset dir="${code.src.script}/home/skin" includes="skinManager.js" />
+			<fileset dir="${code.src.script}/home/user" includes="userManager.js" />
+			<fileset dir="${code.src.script}/home/user" includes="qqView.js" />
+			<fileset dir="${code.src.script}/home/mzArea" includes="myNav.js" />
+			<fileset dir="${code.src.script}/home/mzArea" includes="mzView.js" />
+			<fileset dir="${code.src.script}/home/mzArea" includes="history.js" />
+
+			<fileset dir="${code.src.script}/home/search" includes="searchModel.js" />
+			<fileset dir="${code.src.script}/home/search" includes="searchSelectView.js" />
+			<fileset dir="${code.src.script}/home/search" includes="searchController.js" />
+			<fileset dir="${code.src.script}/home/search" includes="hotWordView.js" />
+			<fileset dir="${code.src.script}/home/news" includes="news.js" />
+			<fileset dir="${code.src.script}/home/video" includes="video.js" />
+			<fileset dir="${code.src.script}/home/mail" includes="mailView.js" />
+			<fileset dir="${code.src.script}/home/star" includes="starView.js" />
+			<fileset dir="${code.src.script}/home/stock" includes="stockView.js" />
+			<fileset dir="${code.src.script}/home/lottery" includes="lotteryView.js" />
+			<fileset dir="${code.src.script}/home/recharge" includes="rechargeView.js" />
+			<fileset dir="${code.src.script}/home/navTab" includes="navTabView.js" />
+			<fileset dir="${code.src.script}/home/newTips" includes="tipsTrigger.js" />
+			<fileset dir="${code.src.script}/home/newTips" includes="calendarTip.js" />
+			<fileset dir="${code.src.script}/home/newTips" includes="loginTip.js" />
+			<fileset dir="${code.src.script}/home/newTips" includes="skinTip.js" />
+			<fileset dir="${code.src.script}/home/newTips" includes="componentTip.js" />
+			<fileset dir="${code.src.script}/home/newTips" includes="tips.js" />
+			<fileset dir="${code.src.script}/home/component" includes="component.js" />
+			<fileset dir="${code.src.script}/home/find" includes="findHighLight.js" />
+			<fileset dir="${code.src.script}/home/" includes="statis.js" />
+			<fileset dir="${code.src.script}/home/" includes="djlStatis.js" />
+		</concat>
+		<concat destfile="${targetDir}/source/${version}/script/jquery191.js" encoding="utf-8" fixlastline="on">
+			<fileset dir="${code.src.script}/common" includes="jquery191.js" />
+		</concat>
+		<concat destfile="${targetDir}/source/${version}/script/dh.js" encoding="utf-8" fixlastline="on">
+			<fileset dir="${code.src.script}/home" includes="dh.js" />
+			<fileset dir="${code.src.script}/unc" includes="haoqq_home_unc_utf8.js" />
+		</concat>
+		<concat destfile="${targetDir}/source/${version}/script/ie.js" encoding="utf-8" fixlastline="on">
+			<fileset dir="${code.src.script}/util" includes="iepng.js" />
+		</concat>
+		<concat destfile="${targetDir}/source/${version}/script/findHl.js" encoding="utf-8" fixlastline="on">
+			<fileset dir="${code.src.script}/home/find" includes="findMovie.js" />
+			<fileset dir="${code.src.script}/home/find" includes="findTv.js" />
+			<fileset dir="${code.src.script}/home/find" includes="findGame.js" />
+			<fileset dir="${code.src.script}/home/find" includes="findFunny.js" />
+			<!-- 
+			<fileset dir="${code.src.script}/home/find" includes="findVShow.js" /> 
+			<fileset dir="${code.src.script}/home/find" includes="findAnecdote.js" />
+			<fileset dir="${code.src.script}/home/find" includes="findBagua.js" />
+			-->
+		</concat>
+		<concat destfile="${targetDir}/source/${version}/script/sosoNews.js" encoding="utf-8" fixlastline="on">
+			<fileset dir="${code.src.script}/util/crossDomain" includes="sosoNews.js" />
+		</concat>
+
+        <concat destfile="${targetDir}/source/${version}/script/sethome.js" encoding="utf-8" fixlastline="on">
+            <fileset dir="${code.src.script}/setHome" includes="sethome.js" />
+        </concat>
+        <concat destfile="${targetDir}/source/${version}/script/haoqq_game_unc.js" encoding="utf-8" fixlastline="on">
+            <fileset dir="${code.src.script}/unc" includes="haoqq_game_unc.js" />
+        </concat>
+        <concat destfile="${targetDir}/source/${version}/script/haoqq_home_unc.js" encoding="gbk" fixlastline="on">
+            <fileset dir="${code.src.script}/unc" includes="haoqq_home_unc.js" />
+        </concat>
+        <echo message=" Concat Js Files end " />
+
+        <echo message=" Concat CSS Files start " />
+		<!--压缩chengxucss-->
+		<concat destfile="${targetDir}/source/${version}/css/hao.css" encoding="utf-8" fixlastline="on">
+			<fileset dir="${code.src.css}/home" includes="g.css" />
+		</concat>
+		<concat destfile="${targetDir}/source/${version}/css/skin.css" encoding="utf-8" fixlastline="on">
+			<fileset dir="${code.src.css}/home" includes="skin.css" />
+		</concat>
+		<concat destfile="${targetDir}/source/${version}/css/skin_bb.css" encoding="utf-8" fixlastline="on">
+			<fileset dir="${code.src.css}/home" includes="skin_bb.css" />
+		</concat>
+		<concat destfile="${targetDir}/source/${version}/css/skin_cj.css" encoding="utf-8" fixlastline="on">
+			<fileset dir="${code.src.css}/home" includes="skin_cj.css" />
+		</concat>
+		<concat destfile="${targetDir}/source/${version}/css/skin_cl.css" encoding="utf-8" fixlastline="on">
+			<fileset dir="${code.src.css}/home" includes="skin_cl.css" />
+		</concat>
+		<concat destfile="${targetDir}/source/${version}/css/skin_qq.css" encoding="utf-8" fixlastline="on">
+			<fileset dir="${code.src.css}/home" includes="skin_qq.css" />
+		</concat>
+		<concat destfile="${targetDir}/source/${version}/css/skin_xk.css" encoding="utf-8" fixlastline="on">
+			<fileset dir="${code.src.css}/home" includes="skin_xk.css" />
+		</concat>
+		<concat destfile="${targetDir}/source/${version}/css/skin_xs.css" encoding="utf-8" fixlastline="on">
+			<fileset dir="${code.src.css}/home" includes="skin_xs.css" />
+		</concat>
+		<concat destfile="${targetDir}/source/${version}/css/skin_yd.css" encoding="utf-8" fixlastline="on">
+			<fileset dir="${code.src.css}/home" includes="skin_yd.css" />
+		</concat>
+		<concat destfile="${targetDir}/source/${version}/css/ie.css" encoding="utf-8" fixlastline="on">
+			<fileset dir="${code.src.css}/home" includes="fuck-ie6.css" />
+		</concat>
+
+		<echo message="Concat CSS Files Finished!!!" />
+        
+		<echo message="Copy Files Start!!!" />
+
+		<echo message="Copy Image Files ..." />
+		<!--图片拷贝-->
+		<copy todir="${targetDir}/source/${version}/img">
+			<fileset dir="${code.src.img}" />
+		</copy>
+
+    	<copy todir="${targetDir}/${version}/img">
+			<fileset dir="${code.src.img}" />
+		</copy>
+
+		<echo message="Copy Js Files ..." />
+		<!--jquery拷贝-->
+		<copy todir="${targetDir}/source/${version}/script" file="${code.src.script}/common/jquery191.js" />
+		<copy todir="${targetDir}/${version}/script" file="${code.src.script}/common/jquery191.js" />
+
+		<echo message="Copy Files Finished!!!" />
+
+        <mkdir dir="${targetDir}/${version}/css" />
+
+	</target>
+
+	<!-- ================================= 
+          target: compress 压缩 js && css  
+         ================================= -->
+	<target name="compress" depends="concat" description="compress code">
+		<echo message="Compress Code Begin" />
+
+		<echo message="Compress hao.js Begin" />
+		<apply executable="java" parallel="false" failonerror="true" dest="${targetDir}/${version}/script">
+			<fileset dir="${targetDir}/source/${version}/script" includes="hao.js" />
+			<arg line="-jar" />
+			<arg path="${yuicompressor}" />
+			<arg line="--charset utf-8" />
+			<arg line="-o" />
+			<targetfile />
+			<mapper type="glob" from="*.js" to="*.js" />
+		</apply>
+		<echo message="Compress hao.js End" />
+
+		<echo message="Compress dh.js Start" />
+		<apply executable="java" parallel="false" failonerror="true" dest="${targetDir}/${version}/script">
+			<fileset dir="${targetDir}/source/${version}/script" includes="dh.js" />
+			<arg line="-jar" />
+			<arg path="${yuicompressor}" />
+			<arg line="--charset utf-8" />
+			<arg line="-o" />
+			<targetfile />
+			<mapper type="glob" from="*.js" to="*.js" />
+		</apply>
+		<echo message="Compress dh.js End" />
+
+		<echo message="Compress ie.js Start" />
+		<apply executable="java" parallel="false" failonerror="true" dest="${targetDir}/${version}/script">
+			<fileset dir="${targetDir}/source/${version}/script" includes="ie.js" />
+			<arg line="-jar" />
+			<arg path="${yuicompressor}" />
+			<arg line="--charset utf-8" />
+			<arg line="-o" />
+			<targetfile />
+			<mapper type="glob" from="*.js" to="*.js" />
+		</apply>
+		<echo message="Compress ie.js End" />
+
+		<echo message="Compress findHl.js Start" />
+		<apply executable="java" parallel="false" failonerror="true" dest="${targetDir}/${version}/script">
+			<fileset dir="${targetDir}/source/${version}/script" includes="findHl.js" />
+			<arg line="-jar" />
+			<arg path="${yuicompressor}" />
+			<arg line="--charset utf-8" />
+			<arg line="-o" />
+			<targetfile />
+			<mapper type="glob" from="*.js" to="*.js" />
+		</apply>
+		<echo message="Compress findHl.js End" />
+
+		<apply executable="java" parallel="false" failonerror="true" dest="${targetDir}/${version}/script">
+			<fileset dir="${targetDir}/source/${version}/script" includes="sosoNews.js" />
+			<arg line="-jar" />
+			<arg path="${yuicompressor}" />
+			<arg line="--charset utf-8" />
+			<arg line="-o" />
+			<targetfile />
+			<mapper type="glob" from="*.js" to="*.js" />
+		</apply>
+		<apply executable="java" parallel="false" failonerror="true" dest="${targetDir}/${version}/script">
+			<fileset dir="${targetDir}/source/${version}/script" includes="sethome.js" />
+			<arg line="-jar" />
+			<arg path="${yuicompressor}" />
+			<arg line="--charset utf-8" />
+			<arg line="-o" />
+			<targetfile />
+			<mapper type="glob" from="*.js" to="*.js" />
+		</apply>
+		<apply executable="java" parallel="false" failonerror="true" dest="${targetDir}/${version}/script">
+			<fileset dir="${targetDir}/source/${version}/script" includes="haoqq_game_unc.js" />
+			<arg line="-jar" />
+			<arg path="${yuicompressor}" />
+			<arg line="--charset utf-8" />
+			<arg line="-o" />
+			<targetfile />
+			<mapper type="glob" from="*.js" to="*.js" />
+		</apply>
+		<apply executable="java" parallel="false" failonerror="true" dest="${targetDir}/${version}/script">
+			<fileset dir="${targetDir}/source/${version}/script" includes="haoqq_home_unc.js" />
+			<arg line="-jar" />
+			<arg path="${yuicompressor}" />
+			<arg line="--charset gbk" />
+			<arg line="-o" />
+			<targetfile />
+			<mapper type="glob" from="*.js" to="*.js" />
+		</apply>
+
+		<echo message="Compress Js files End" />
+
+		<echo message="Compress Css files Start" />
+        <apply executable="java" parallel="false" failonerror="true" dest="${targetDir}/${version}/css">
+            <fileset dir="${targetDir}/source/${version}/css" includes="hao.css" />
+			<arg line="-jar" />
+			<arg path="${yuicompressor}" />
+			<arg line="--charset utf-8" />
+			<arg line="-o" />
+			<targetfile />
+			<mapper type="glob" from="*.css" to="*.css" />
+		</apply>
+		<apply executable="java" parallel="false" failonerror="true" dest="${targetDir}/${version}/css">
+			<fileset dir="${targetDir}/source/${version}/css" includes="ie.css" />
+			<arg line="-jar" />
+			<arg path="${yuicompressor}" />
+			<arg line="--charset utf-8" />
+			<arg line="-o" />
+			<targetfile />
+			<mapper type="glob" from="*.css" to="*.css" />
+		</apply>
+		<apply executable="java" parallel="false" failonerror="true" dest="${targetDir}/${version}/css">
+			<fileset dir="${targetDir}/source/${version}/css" includes="skin.css" />
+			<arg line="-jar" />
+			<arg path="${yuicompressor}" />
+			<arg line="--charset utf-8" />
+			<arg line="-o" />
+			<targetfile />
+			<mapper type="glob" from="*.css" to="*.css" />
+		</apply>
+		<apply executable="java" parallel="false" failonerror="true" dest="${targetDir}/${version}/css">
+			<fileset dir="${targetDir}/source/${version}/css" includes="skin_bb.css" />
+			<arg line="-jar" />
+			<arg path="${yuicompressor}" />
+			<arg line="--charset utf-8" />
+			<arg line="-o" />
+			<targetfile />
+			<mapper type="glob" from="*.css" to="*.css" />
+		</apply>
+		<apply executable="java" parallel="false" failonerror="true" dest="${targetDir}/${version}/css">
+			<fileset dir="${targetDir}/source/${version}/css" includes="skin_cj.css" />
+			<arg line="-jar" />
+			<arg path="${yuicompressor}" />
+			<arg line="--charset utf-8" />
+			<arg line="-o" />
+			<targetfile />
+			<mapper type="glob" from="*.css" to="*.css" />
+		</apply>
+		<apply executable="java" parallel="false" failonerror="true" dest="${targetDir}/${version}/css">
+			<fileset dir="${targetDir}/source/${version}/css" includes="skin_cl.css" />
+			<arg line="-jar" />
+			<arg path="${yuicompressor}" />
+			<arg line="--charset utf-8" />
+			<arg line="-o" />
+			<targetfile />
+			<mapper type="glob" from="*.css" to="*.css" />
+		</apply>
+		<apply executable="java" parallel="false" failonerror="true" dest="${targetDir}/${version}/css">
+			<fileset dir="${targetDir}/source/${version}/css" includes="skin_qq.css" />
+			<arg line="-jar" />
+			<arg path="${yuicompressor}" />
+			<arg line="--charset utf-8" />
+			<arg line="-o" />
+			<targetfile />
+			<mapper type="glob" from="*.css" to="*.css" />
+		</apply>
+		<apply executable="java" parallel="false" failonerror="true" dest="${targetDir}/${version}/css">
+			<fileset dir="${targetDir}/source/${version}/css" includes="skin_xk.css" />
+			<arg line="-jar" />
+			<arg path="${yuicompressor}" />
+			<arg line="--charset utf-8" />
+			<arg line="-o" />
+			<targetfile />
+			<mapper type="glob" from="*.css" to="*.css" />
+		</apply>
+		<apply executable="java" parallel="false" failonerror="true" dest="${targetDir}/${version}/css">
+			<fileset dir="${targetDir}/source/${version}/css" includes="skin_xs.css" />
+			<arg line="-jar" />
+			<arg path="${yuicompressor}" />
+			<arg line="--charset utf-8" />
+			<arg line="-o" />
+			<targetfile />
+			<mapper type="glob" from="*.css" to="*.css" />
+		</apply>
+		<apply executable="java" parallel="false" failonerror="true" dest="${targetDir}/${version}/css">
+			<fileset dir="${targetDir}/source/${version}/css" includes="skin_yd.css" />
+			<arg line="-jar" />
+			<arg path="${yuicompressor}" />
+			<arg line="--charset utf-8" />
+			<arg line="-o" />
+			<targetfile />
+			<mapper type="glob" from="*.css" to="*.css" />
+		</apply>
+		<echo message="Compress Css Files End" />
+
+		<echo message="Compress Code Finished" />
+		<echo message="Clean Begin" />
+		<echo message="Clean Finished" />
+	</target>
+    <target name="clean" description="clean up">
+		<delete dir="${targetDir}/source/css/" />
+		<delete dir="${targetDir}/source/script/" />
+    </target>
+</project>
