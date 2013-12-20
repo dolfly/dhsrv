@@ -2,7 +2,7 @@ from django.conf.urls import patterns, include, url
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
-from navsrv.views import HomeView
+from navsrv.views.views import HomeView,AjaxJsonView
 
 
 admin.autodiscover()
@@ -18,6 +18,10 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     #url(r'^$', TemplateView.as_view(template_name="home/home.vm")),
     url(r'^$', HomeView.as_view()),
+
+    url(r'htm$',AjaxJsonView.as_view()),
+
+    # Apps Url
     url(r'^admin/', include(admin.site.urls)),
     url(r'^xyx/', include("navapp.xyx.urls")),
     # url(r'^image/', include('navapp.image.urls')),
