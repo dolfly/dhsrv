@@ -1,0 +1,34 @@
+	<ul id="findHlTab" class="jc_nav">
+		<li class="hover"><a href="javascript:;" target="_self" class="jc_a1" _stag="dhv1.find.movie.tab">电影</a></li>
+		<li><a href="javascript:;" target="_self" class="jc_a2" _stag="dhv1.find.tv.tab">电视剧</a></li>
+		<li><a href="javascript:;" target="_self" class="jc_a3" _stag="dhv1.find.show.tab">综艺</a></li>
+		<li><a href="javascript:;" target="_self" class="jc_a4" _stag="dhv1.find.game.tab">小游戏</a></li>
+		<li><a href="javascript:;" target="_self" class="jc_a5" _stag="dhv1.find.amazing.tab">奇闻轶事</a></li>
+		<li><a href="javascript:;" target="_self" class="jc_a6" _stag="dhv1.find.bagua.tab">八卦</a></li>
+		<li><a href="javascript:;" target="_self" class="jc_a7" _stag="dhv1.find.happy.tab">搞笑</a></li>
+	</ul>
+	<div class="jc_main"> 
+		<!--电影-->
+		<div class="jc_movie findPanel hover" id="mm_0"></div>	
+				
+		<!--电视剧-->
+		<div class="jc_tv findPanel" id="mm_1" style="display:none;"></div>
+		
+		<!--综艺-->
+		<div class="jc_zongyi findPanel" id="mm_2" style="display:none;"></div> 
+		
+		<!--游戏-->
+		<div class="jc_game findPanel" id="mm_3" style="display:none;"></div>
+		
+		<!--奇闻轶事-->
+		<div class="jc_qiwen findPanel" id="mm_4" style="display:none;"></div>
+		
+		<!--八卦-->
+		<div class="jc_bagua findPanel" id="mm_5" style="display:none;"></div>
+		
+		<!--搞笑-->
+		<div class="jc_gaoxiao findPanel" id="mm_6" style="display:none;"></div>
+	</div>
+	<div id="findHlLoading" class="loading hide"><img src="{{ STATIC_URL }}img/loading.gif?ver=${version_v1}" align="absmiddle" /> 正在努力加载中...</div>
+	<a href="#" class="jc_prev ico" _stag="dhv1.find.left.tab">上一页</a>
+	<a href="#" class="jc_next ico" _stag="dhv1.find.right.tab">下一页</a>

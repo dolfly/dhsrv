@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	_background-image:url(about:blank);
+	_background-attachment:fixed;
+}
+/*	@theme-panel
+-----------------------------------------------------------------------------*/
+.theme-notice
+{
+	_bottom:0;
+	_left:0;
+	_z-index:3;
+}
+
+/*	@body-bd
+-----------------------------------------------------------------------------*/
+
+/*
+** topbar
+*/
+ul.cityWrap
+{
+	_width:60px;
+}
+.skinBtn .name
+{
+	_line-height:16px;
+}
+.userInfo a
+{
+	_line-height:14px;
+}
+.theme-caption .pages
+{
+	_margin-left:220px;/*23%;*/
+}
+.weather-item .weapic{
+	_margin:15px 5px 0 10px;
+}
+/*
+** search
+*/
+.searchInput
+{
+	_border:1px solid #609ce6;
+}
+.searchEngine a.enginePic
+{
+	_margin-left:1px;
+}
+/*
+** mainTab
+*/
+.mainTab-list li a, .mainTab-list li.select a
+{
+	_margin-top:10px;
+}
+/*
+** container
+*/
+/*hot-site*/
+.famous .recom li
+{
+	_height:30px;
+}
+.famous .recom li a
+{
+	_height:30px;
+}
+.history
+{
+	_height:39px;
+	_line-height:39px;
+}
+.jw-his li
+{
+	_margin:13px 5px 0 0;
+}
+.recom-toggle
+{
+	_margin-top:-1px;
+}
+.history-del
+{
+	_margin-top:1px;
+}
+.madeList li
+{
+	_margin:0 9px -15px 0;
+}
+.jw-subbox
+{
+	_width:65px;
+	_min-width:65px;
+}
+.yxzq-section
+{
+	_margin-right:0px;
+}
+
+/*cool-site*/
+.cool-site
+{
+	_margin-bottom:5px;
+}
+.chaoW-inner .list li
+{
+	_height:16px;
+	_line-height:16px;
+}
+.cool-section
+{
+	_padding:13px 0 14px 20px;
+}
+/*rightSeciton*/
+.rightSeciton .captionName
+{
+	_margin:0 8px 0 7px;
+}
+.rightSeciton
+{
+	_float:none;
+}
+/*.rgt-cap-tool
+{
+	_display:block;
+}
+.rgt-cap-tool
+{
+	_float:right;
+	_margin-right:5px;
+}*/
+.videoBox-list-wrap
+{
+	_padding:9px 0 3px 15px;
+}
+.videoBox-list li
+{
+	_height: 24px;
+ 	_line-height: 24px;
+}
+.videoBox-list li em
+{
+	_margin-right:5px;
+}
+.xz-name
+{
+	_margin-top:1px;
+}
+.xz-toggle
+{
+	_margin-top:10px;
+}
+.first-tit-wrap .point
+{
+	_margin-right:11px;
+}
+
+/*
+** inner-footer
+*/
+#inner-footer
+{
+	_margin-top:0px;
+}
+.inft-subicon
+{
+	_margin-top:0px;
+}
+.inft-content .list li
+{
+	_height:16px;
+	_line-height:16px;
+}
+
+/*
+** bottom-footer
+*/
+.bmft-section
+{
+	_margin:0 53px 0 0px;
+}
+
+/*
+** weather-tips
+*/
+.tipsKS-info dt,.tipsKS-info-nokq dt,.tipsKS-info-nokq dd
+{
+	_line-height:14px;
+}
+.hot-artcle .open li a:hover
+{
+	color:#1864c7;
+}
+.today-f,.today-s
+{
+	_line-height:14px;
+}
+.dayWea-li p.date
+{
+	_line-height:14px;
+}
+.dayWea-list
+{
+	_padding:20px 0 0 30px;
+}
+.dayWea-li .ce
+{
+	_line-height:11px;
+}
+/*
+** cityadd-Tips
+*/
+.city-subass
+{
+	_margin:80px auto 0;
+}
+/*
+** gotop
+*/
+.gotopnor .gotop-infobox,.gotop1024 .gotop-infobox
+{
+	_margin-top:156px;
+	_position:absolute;
+	_bottom:auto;
+	_top:expression(eval(document.documentElement.scrollTop));
+}
+.gotopnor .ggtop-nor,.gotop1024 .ggtop1024
+{
+	_position:absolute;
+	_bottom:auto;
+	_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+	_margin-bottom:106px;
+}
+/*
+** background
+*/
+#background .bg-inner
+{
+	_height:800px;
+}
+
+.chaoW-imgView-wrap
+{
+	_height:146px;
+}
+.award
+{
+	_background:url(../img/award.png) no-repeat 0px 0px;
+}
+.videoicon
+{
+	_display: none;
+}
+.img-left,.img-right
+{
+	_background-image:url(../img/qiehuan.png);
+	_width:14px;
+}
+.img-left
+{
+	_background-position:0 0px;
+}
+.img-right
+{
+	_background-position:-85px 0;
+}
+.img-left:hover
+{
+	_background-position:0 -56px;
+}
+.img-right:hover
+{
+	background-position:-85px -56px;
+}

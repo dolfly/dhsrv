@@ -1,0 +1,61 @@
+<div id="module5"  class="rightSeciton gupiaoBox customModule" style="display:none;"> 
+				<!-- 标题 -->
+				<div class="caption"> <a href="javascript:;" target="_self"  class="clearfix inner">
+					<h2 class="captionName">股票</h2>
+					<div class="rgt-cap-tool"> <span class="tool-icon"></span> <span class="tool-name">编辑</span> </div>
+					<div class="rgt-cap-tool-grey"></div>
+					</a> 
+				</div>
+				<!-- tab -->
+				<div class="chaoW-tab">
+						<ul class="chaoW-tab-list clearfix gp-tab-list">
+							<li class="select"> <a href="#" _stag="dhv1.pac.area7.tab1">沪深指数</a> </li>
+							<li> <a href="#" _stag="dhv1.pac.area7.tab2">我的自选</a> </li>
+							<li> <a href="#" _stag="dhv1.pac.area7.tab3">财经资讯</a> </li>
+						</ul>
+				</div>
+				<div class="rgt-pages rgt-pages-gupiao clearfix">
+					<ul class="gupiao-list">
+						<li class="gpnow">
+							<div class="gupiao-tit"><h4>上证</h4><p class="c-red"><span><b></b></span><span></span><span></span></p><em class="icon-jiantou"></em></div>
+							<div class="gupiao-img" style="height:197px;">
+							<p></p>
+							<img src="{{ STATIC_URL }}img/black.gif" width="210" height="170" />
+							</div>
+						</li>
+						<li>
+							<div class="gupiao-tit"><h4>深证</h4><p class="c-green"><span><b></b></span><span></span><span></span></p><em class="icon-jiantou"></em></div>
+							<div class="gupiao-img" style="height:0px;">
+							<p></p>
+							<img src="{{ STATIC_URL }}img/black.gif" width="210" height="170" />
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="rgt-pages rgt-pages-gupiao clearfix" style="display:none;">
+					<div class="gupiao-login" style="display:block;">
+						<p>自选股信息请登录后使用:)</p>
+						<p><a href="#" class="loginBtn" _stag="dhv1.pac.area7.login"></a></p>
+						<p>一处定制  随处查看</p>
+					</div>		
+					<div class="my-gupiao" style="display:none;">
+						<h5><span class="sp1">名称</span><span class="sp2">最新价</span><span class="sp3">跌幅价</span></h5>
+						<ul>
+						</ul>
+						<a href="http://stockapp.finance.qq.com/pstock/" class="my-gupiao-tj" style="float:right;" _stag="dhv1.pac.area7.add">+ 添加我的自选股</a>
+					</div>
+					<div class="gupiao-tj" style="display:none;">
+						<p>您还没有自选股</p>
+						<a href="http://stockapp.finance.qq.com/pstock/" class="my-gupiao-tj" _stag="dhv1.pac.area7.add">+ 添加我的自选股</a>
+					</div>
+				</div>
+				<div class="rgt-pages rgt-pages-gupiao clearfix" style="display:none;">
+					<ul class="ul-list">
+						
+					</ul> 
+					<div class="line6"></div>
+					<ul class="ul-list">
+						
+					</ul> 
+				</div>
+</div>

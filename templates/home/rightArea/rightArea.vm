@@ -1,0 +1,39 @@
+<div id="jw-Right" class="clearfix">
+	<!-- 专题 -->
+	{% if pic %}
+	<div id="picTopic" class="rightSeciton">
+		<a class="change-wrap" href="{{ pic.href }}" _stag="dhv1.topic.pic.1">
+			<img class="show-img zt-img sync" data-original="{{ pic.img_src }}" src="{{ STATIC_URL }}img/black.gif"></img>
+        </a>
+	</div>
+	{% endif %}
+	<!-- 专题 end-->	
+	<div id="componentArea">
+	<!-- 新闻 -->
+	{% include "home/rightArea/news/news.vm" %}
+	<!-- 新闻 end-->
+	<!-- 视频 -->
+	{% include "home/rightArea/video/video.vm" %}
+	<!-- 视频 end-->
+	<!-- 彩票 -->
+	{% include "home/rightArea/lottery/lottery.vm" %}
+	<!-- 彩票 end--> 
+	<!-- 缴费 -->
+	{% include "home/rightArea/charge/charge.vm" %}
+	<!-- 缴费 end-->
+	<!-- 邮箱 -->
+	{% include "home/rightArea/mail/mail.vm" %}
+	<!-- 邮箱 end-->
+	<!-- 星座 -->
+	{% include "home/rightArea/star/star.vm" %}
+	<!-- 星座 end-->
+	<!-- 股票 -->
+	{% include "home/rightArea/stock/stock.vm" %}
+	<!-- 股票 end--> 
+	</div>
+	<!-- 可变 -->
+	<div id="adaptModule" class="rightSeciton" style="overflow: hidden;">
+		{{ home_ad }}
+	</div>
+	<!-- 可变 end-->
+</div>

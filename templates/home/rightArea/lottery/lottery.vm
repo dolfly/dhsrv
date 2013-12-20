@@ -1,0 +1,67 @@
+<div id="module6" class="rightSeciton caipiaoBox customModule" style="display:none;"> 
+			<!-- 标题 -->
+			<div class="caption"> 
+				<a href="javascript:;" target="_self" class="clearfix inner">
+					<h2 class="captionName">彩票</h2>
+					<div class="rgt-cap-tool"> <span class="tool-icon"></span> <span class="tool-name">编辑</span> </div>
+					<div class="rgt-cap-tool-grey"></div>
+				</a> 
+			</div>
+			<!-- tab -->
+			<div class="chaoW-tab">
+				<ul class="chaoW-tab-list clearfix">
+					<li class="select"> <a href="#" _stag="dhv1.pac.area6.tab1">双色球</a> </li>
+					<li> <a href="#" _stag="dhv1.pac.area6.tab2">七星彩</a> </li>
+					<li> <a href="#" _stag="dhv1.pac.area6.tab3">大乐透</a> </li>
+					<li> <a href="#" _stag="dhv1.pac.area6.tab4">七乐彩</a> </li>
+				</ul>
+			</div>
+			<div class="rgt-pages rgt-pages-caipiao clearfix">
+				<div class="caipiao"> 
+					<p></p>
+					<div class="qiu"></div>
+					<ul>
+						<li>奖池奖金：<b class="c-red"></b> 万元</li>
+						<li>投注截止：<b></b></li>
+						<li>开奖时间：<b></b></li>
+					</ul>
+					<p><a href="#" _stag="dhv1.pac.area6.text11">走势图</a><a href="http://888.qq.com/zixun/ssq/" _stag="dhv1.pac.area6.text12">预测</a><a href="#" _stag="dhv1.pac.area6.text13">投注</a></p>
+				</div>
+			</div>
+			<div class="rgt-pages rgt-pages-caipiao clearfix" style="display:none;">
+				<div class="caipiao"> 
+					<p></p>
+					<div class="qiu"></div>
+					<ul>
+						<li>奖池奖金：<b class="c-red"></b> 万元</li>
+						<li>投注截止：<b></b></li>
+						<li>开奖时间：<b></b></li>
+					</ul>
+					<p><a href="#" _stag="dhv1.pac.area6.text21">走势图</a><a href="http://888.qq.com/zixun/szpl/" _stag="dhv1.pac.area6.text22">预测</a><a href="#" _stag="dhv1.pac.area6.text23">投注</a></p>
+				</div>
+			</div>
+			<div class="rgt-pages rgt-pages-caipiao clearfix" style="display:none;">
+				<div class="caipiao"> 
+					<p></p>
+					<div class="qiu"></div>
+					<ul>
+						<li>奖池奖金：<b class="c-red"></b> 万元</li>
+						<li>投注截止：<b></b></li>
+						<li>开奖时间：<b></b></li>
+					</ul>
+					<p><a href="#" _stag="dhv1.pac.area6.text31">走势图</a><a href="http://888.qq.com/zixun/dlt/" _stag="dhv1.pac.area6.text32">预测</a><a href="#" _stag="dhv1.pac.area6.text33">投注</a></p>
+				</div>
+			</div>
+			<div class="rgt-pages rgt-pages-caipiao clearfix" style="display:none;">
+				<div class="caipiao"> 
+					<p></p>
+					<div class="qiu"></div>
+					<ul>
+						<li>奖池奖金：<b class="c-red"></b> 万元</li>
+						<li>投注截止：<b></b></li>
+						<li>开奖时间：<b></b></li>
+					</ul>
+					<p><a href="#" _stag="dhv1.pac.area6.text41">走势图</a><a href="http://sports.qq.com/zt2012/cpzhuanjian/index.htm" _stag="dhv1.pac.area6.text42">预测</a><a href="#" _stag="dhv1.pac.area6.text43">投注</a></p>
+				</div>
+			</div>
+</div>

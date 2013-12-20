@@ -1,3 +1,10 @@
 *.pyc
 *.swp
 *.pyo
+.Python
+bin/*
+include/*
+lib/*
+.idea
+resource/output/*
+static/*

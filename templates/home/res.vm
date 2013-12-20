@@ -1,0 +1,22 @@
+<script type="text/javascript">
+	var _speedMark = new Date();
+	try {
+		document.domain = 'qq.com';
+	} catch(e) {} ! location.origin && (location.origin = location.protocol + '//' + location.host);
+</script>
+<meta http-equiv="Expires" content="0" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache,no-store,max-age=0,s-maxage=0,must-revalidate" /> 
+<base target="_blank">
+<meta name="keywords" content="上网导航,网址大全,网址导航,qq上网导航,qq网址,qq导航,qq网址大全,qq活动,抽奖活动"/>
+<meta name="description" content="qq导航是最具权威的中文上网导航，汇集最优秀的网站及资源。及时收录影视、音乐、小说、游戏等分类的网址和内容，让您的网络生活更简单精彩。上网，从qq导航开始。" />
+<link REL="SHORTCUT ICON" HREF="{{ STATIC_URL }}img/hao_favicon.ico">
+<link rel="stylesheet" href="{{ STATIC_URL }}css/hao.css?ver={{ version }}" />
+<link id="uskin" rel="stylesheet" href="{{ STATIC_URL }}css/{{ uskin }}.css?ver={{ version }}" />
+<!--[if IE 6]>
+	<script type="text/javascript" src="{{ STATIC_URL }}script/ie.js"></script>
+	<script>
+		DD_belatedPNG.fix('.skinBtn .skin-pur,.userWrap .msg-pur,.engine-toggle,.hot-artcle-open-tit,.hot-artcle .artcle-order,ul.cityList li a.closed:hover,.date-item .datepic-pur,.weather-item .weapic-pur,.today-f,.today-s,.dayWea-li .weaImg,.searchEngine a.enginePic,.mainTab-list li a,.mainTab-list li.select a,.history-del,.recom-toggle,.inft-subicon,.bmft-subcaption,.rightSeciton .tool-icon,.videoBox-list li em,.first-tit-wrap .star,.gtif-icon,.gtif-icon1024,.red-notice,.ggt-icon-nor,.yxzq-caption .tit,.yxzq-caption .more,.daywearher a.color:hover,.ssd,.madedivClosed,.ggt-icon1024,.ts-closed,.ts-tq,.ts-dl,.ts-hf,.ts-tj,.skinBtn .back-pur,#search #logo,.icon-close2,.ts-rl,.ts-bj,.rl-prev,.rl-next,.rgt-cap-tool-grey,.icon-new,.ico,.star9,.jc_a1,.jc_a2,.jc_a3,.jc_a4,.jc_a5,.jc_a6,.jc_a7,.xh1')
+	</script>
+	<link href="{{ STATIC_URL }}css/ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->

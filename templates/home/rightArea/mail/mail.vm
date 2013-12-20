@@ -1,0 +1,60 @@
+<div id="module3" class="rightSeciton mailBox customModule">
+	<form id="emailForm" name="emailForm" method="post" target="_black">
+		<!-- 标题 -->
+		<div class="caption" style="border-bottom:1px solid #eaeaea;">
+			<a href="javascript:;" target="_self" class="clearfix inner">
+			<h2 class="captionName">邮箱</h2>
+			<div class="rgt-cap-tool">
+				<span class="tool-icon"></span>
+				<span class="tool-name">编辑</span>
+			</div>
+			<div class="rgt-cap-tool-grey"></div>
+			</a>
+		</div>
+		<!-- 标题 end-->
+		<div class="mail-inputwrap">
+			<div class="mailText-item mail-item clearfix">
+				<input type="text" id="mailUserName" placeholder="邮箱用户名"/>
+				<a href="#" id="currentMail" class="mailSelect">选择邮箱账号</a>
+				<div id="mailSelectList" class="jw-subbox-outer mail-subbox-outer hide">
+					<ul class="jw-subbox">
+						<li optionvalue="@163.com"><a href="javascript:;">@163.com 网易</a></li>
+						<li optionvalue="@126.com"><a href="javascript:;">@126.com 网易</a></li>
+						<li optionvalue="@sina.com"><a href="javascript:;">@sina.com 新浪</a></li>
+						<li optionvalue="@139.com"><a href="javascript:;">@139.com</a></li>
+						<li optionvalue="@sohu.com"><a href="javascript:;">@sohu.com 搜狐</a></li>
+						<li optionvalue="@yeah.net"><a href="javascript:;">@yeah.net</a></li>
+						<li optionvalue="@21cn.com"><a href="javascript:;">@21cn.com</a></li>
+						<li optionvalue="@tom.com"><a href="javascript:;">@tom.com</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="mailPass-item mail-item">
+				<input id="emailPwd" type="password" placeholder="邮箱密码"/>
+				<div id="mail-hidden-input"></div>
+			</div>
+		</div>
+		<div class="mail-inputbtn">
+			<input type="submit" class="madeBtn" href="#" value="直接登录"/>
+		</div>
+		<div class="mail-more">
+			<label>
+				去其他邮箱：
+			</label>
+			<ul class="list clearfix">
+				<li>
+					<a href="http://mail.qq.com" _stag="dhv1.pac.area4.out1" _type="mail">QQ邮箱</a>
+				</li>
+				<li>
+					<a href="http://mail.qq.com/cgi-bin/loginpage?t=fox_loginpage" _stag="dhv1.pac.area4.out2" _type="mail">Foxmail</a>
+				</li>
+				<li>
+					<a href="http://gmail.com" _stag="dhv1.pac.area4.out3" _type="mail">Gmail</a>
+				</li>
+				<li>
+					<a href="https://login.live.com" _stag="dhv1.pac.area4.out4" _type="mail">Hotmail</a>
+				</li>
+			</ul>
+		</div>
+	</form>
+</div>

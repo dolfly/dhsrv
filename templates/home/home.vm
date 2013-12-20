@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>QQ导航_最权威的上网导航</title>
+{% include 'home/res.vm' %}
+</head>
+<body>
+{% include 'home/skin/skin.vm' %}
+<div id="jwWrap">
+	<div id="body-bd">
+		<!-- topbar -->
+		{% include 'home/topbar/topbar.vm' %}	
+		<!-- topbar end-->
+		<!-- search -->
+		{% include 'home/search/search.vm' %}	
+		<!-- search end-->
+		<!-- mainTab -->
+		<div id="mainTab" class="warp clearfix">
+        	<ul class="mainTab-list clearfix">
+				<li class="select navTab" _stag="dhv1.toptab.1"><a href="#" class="home">首页</a></li>
+				<li class="navTab" _stag="dhv1.toptab.2"><a href="#" class="news">新闻</a><em class="icon-new"></em></li>
+                <li _stag="dhv1.toptab.3"><a href="http://v.hao.qq.com/tv/index.html" class="tv">电视</a></li>
+                <li _stag="dhv1.toptab.4"><a href="http://v.hao.qq.com/movie/index.html#tiled" class="movie">电影</a></li>
+                <li _stag="dhv1.toptab.5"><a href="http://game.hao.qq.com/game/home.html" class="game">游戏</a></li>
+                <li _stag="dhv1.toptab.6"><a href="http://www.hao.qq.com/chaxun.html" class="search">查询</a></li>
+				<li _stag="dhv1.toptab.7"><a href="http://dushu.qq.com/" class="novel">小说</a></li>
+				<li _stag="dhv1.toptab.8"><a href="http://www.qq.com/map/" class="tencent">腾讯专区</a></li>          
+            </ul> 
+        </div>
+      <!-- mainTab end -->
+      <!-- container -->
+		<div id="container" class="clearfix warp containerPanel"> 
+			<!-- 左侧 -->
+			<div id="jw-Left" class="clearfix"> 
+				<!-- hot-site -->
+				{% include 'home/mz/mz.vm' %}	
+				<!-- hot-site end--> 
+				<!-- cool-site -->
+				{% include 'home/kz/kz.vm' %}	
+				<!-- cool-site end--> 
+			</div>
+			<!-- 左侧 end--> 
+			<!-- 右侧 -->
+			{% include 'home/rightArea/rightArea.vm' %}	
+			<!-- 右侧 end--> 
+		</div>
+		<div id="wait" class="hide" style="width:960px;margin:0 auto;position:absolute;z-index: 9999;">
+			<span style="position:relative;left:400px;color:#808080;font-size: 14px;font-weight: bold;">
+				<img src="{{ STATIC_URL }}img/loading.gif"/>
+				正在努力为您加载中，请稍候...
+			</span>
+		</div>
+		<div id="newsFrame" class="containerPanel hide">			
+			<iframe scrolling="no" allowtransparency="true" frameborder="no" id="news-iframe" name="news-iframe">
+            </iframe>
+		</div>
+      <!-- container end -->
+	  <!-- inner-footer -->
+	  <div id="inner-footer" class="warp">
+			{{ home_bottom_category1 }}
+	  </div>
+	  <!-- inner-footer end--> 
+	  <!-- bottom-footer -->
+	  <div id="bottom-footer" class="clearfix">
+			{{ home_bottom_category2 }}
+	  </div>
+	  <!-- bottom-footer end--> 
+	  <!-- findHl -->
+	  <div id="findHl" class="jingcai">
+			{% include 'home/findHl/findHl.vm' %}
+	  </div>
+	  <!-- findHl end-->
+	</div>
+	<!-- copyright -->
+	{% include 'home/foot/foot.vm' %}
+	<!-- copyright end-->
+	{% include 'home/extra/extra.vm' %}
+</div>
+{% include 'home/extra/tips.vm' %}
+<div id="doubanFrame" style="position: fixed;bottom: 0;z-index:10;"></div>
+<div id="context" resourcePath="{{ resourcePath_v1 }}" floderVer="{{ floder_ver }}" version="{{ version }}" class="hide"></div>
+ <div id="ab_exp_lab_fileds">
+	{% for key,param in experiment_hide_map %}
+       <input type="hidden" id="{{ param }}" name="{{ param }}" value="{{ key }}">
+    {% endfor %}
+  </div>
+<script type="text/javascript" src="{{ STATIC_URL }}script/jquery191.js?ver={{ version }}"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}script/hao.js?ver={{ version }}"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}script/dh.js?ver={{ version }}"></script>
+<script language="javascript">
+	(function(){
+		var node=document.createElement('script'),
+		script=document.getElementsByTagName('script')[0];
+ 		node.src="http://pingjs.qq.com/tcss.ping.js"; 
+        node.type='text/javascript';               
+        node.onload=node.onerror=node.onreadystatechange=function(){                        
+           /loaded|complete|undefined/.test(node.readyState)&&function(){                             
+               node.onload=node.onerror=node.onreadystatechange=null;                                
+               node.parentNode.removeChild(node);                 
+               node=undefined;
+               pgvMain();
+           }();     
+        };
+        script.parentNode.insertBefore(node,script);           
+	})(); 
+</script>
+</body>
+</html>

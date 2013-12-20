@@ -1,0 +1,25 @@
+<div id="theme-panel" class="clearfix hide">
+	<div class="theme-caption warp clearfix">
+		<h3 class="tit">选择皮肤</h3>
+	</div>
+	<div style="border-bottom:1px solid #c5c5c5;"></div>
+	<div class="theme-preview warp">
+		<ul id="skinList" class="list clearfix">
+			$!{hao_qq_home_skin_v1}
+		</ul>
+	</div>
+	<div class="theme-cz clearfix warp">
+		<div class="pages clearfix">
+			<span></span><a href="#" class="prev" _stag="dhv1.head.skin.pre">上一页</a><a href="#" class="next" _stag="dhv1.head.skin.next">下一页</a>
+		</div>
+		<div class="theme-btn clearfix"> 
+			<a href="#" class="save pur" _stag="dhv1.head.skin.save">保存</a>
+			<a href="#" class="cancel" _stag="dhv1.head.skin.can">取消</a>
+		</div>
+		<div class="help clearfix"> 
+			<a></a>##<a href="#" _stag="dhv1.head.skin.ques">无法保存？</a>
+			<span style="border-left:1px solid #c5c5c5;height:12px; line-height:12px; margin:10px 8px 0 3px;float:left;"></span> 
+			<a href="#" _stag="dhv1.head.skin.reset">恢复默认</a>
+		</div>
+	</div>
+</div>

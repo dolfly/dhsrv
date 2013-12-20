@@ -1,0 +1,217 @@
+<div id="module4" class="rightSeciton xzBox customModule">
+		<!-- 标题 -->
+		<div class="caption">
+			<a href="javascript:;" target="_self" class="clearfix inner">
+			<h2 class="captionName">星座</h2>
+			<div class="rgt-cap-tool">
+				<span class="tool-icon"></span>
+				<span class="tool-name">编辑</span>
+			</div>
+			<div class="rgt-cap-tool-grey"></div>
+			</a>
+		</div>
+		<!-- tab -->
+		<div class="chaoW-tab">
+			<ul id="starDayTab" class="chaoW-tab-list clearfix jw-tab-list">
+				<li class="select">
+					<a href="#" _stag="dhv1.pac.area3.tab1">今日</a>
+				</li>
+				<li>
+					<a href="#" _stag="dhv1.pac.area3.tab2">明日</a>
+				</li>
+			</ul>
+		</div>
+		<!-- xz -->
+		<div id="todayStar" class="xz-pages clearfix">
+			<div class="xz-item">
+				<div class="xz-selected clearfix">
+					<div id="starImg1" class="xz-img jx">
+					</div>
+					<div id="xzSelect1" class="xz-name">
+						<a id="curStar1" href="#" class="named">&nbsp;</a>
+						<span class="xz-toggle"></span>
+					</div>
+					<div id="xzSelectList1" class="jw-subbox-outer xz-subbox-outer hide">
+						<ul class="jw-subbox">
+							<li optionvalue="3">
+								<a href="#">白羊座</a>
+							</li>
+							<li optionvalue="4">
+								<a href="#">金牛座</a>
+							</li>
+							<li optionvalue="5">
+								<a href="#">双子座</a>
+							</li>
+							<li optionvalue="6">
+								<a href="#">巨蟹座</a>
+							</li>
+							<li optionvalue="7">
+								<a href="#">狮子座</a>
+							</li>
+							<li optionvalue="8">
+								<a href="#">处女座</a>
+							</li>
+							<li optionvalue="9">
+								<a href="#">天秤座</a>
+							</li>
+							<li optionvalue="10">
+								<a href="#">天蝎座</a>
+							</li>
+							<li optionvalue="11">
+								<a href="#">射手座</a>
+							</li>
+							<li optionvalue="0">
+								<a href="#">摩羯座</a>
+							</li>
+							<li optionvalue="1">
+								<a href="#">水瓶座</a>
+							</li>
+							<li optionvalue="2">
+								<a href="#">双鱼座</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="first-tit-wrap xz-starwrap">
+					<span class="starList">
+						
+					</span>
+				</div>
+			</div>
+			<div style="border-bottom:1px solid #f0f0f0; width:100%;*margin-top:-15px;_margin-top:-15px;">
+			</div>
+			<div class="xz-kindSection clearfix">
+				<span class="xz-kind clearfix">
+					<p class="point">
+						
+					</p>
+					<p class="tit">
+						爱情
+					</p>
+				</span>
+				<div style="border-left:1px solid #f0f0f0; height:34px; float:left;">
+				</div>
+				<span class="xz-kind clearfix">
+					<p class="point">
+						
+					</p>
+					<p class="tit">
+						工作
+					</p>
+				</span>
+				<div style="border-left:1px solid #f0f0f0; height:34px; float:left;">
+				</div>
+				<span class="xz-kind clearfix">
+					<p class="point">
+						
+					</p>
+					<p class="tit">
+						财运
+					</p>
+				</span>
+			</div>
+			<div style="border-bottom:1px solid #f0f0f0; width:100%;*margin-top:-15px;_margin-top:-15px;">
+			</div>
+			<div class="xz-introSec">
+				<p class="xz-intro">
+				</p>
+				<a href="#" class="more" _stag="dhv1.pac.area3.detail1">详情</a>
+			</div>
+		</div>
+		<div id="tomorrowStar" class="xz-pages clearfix hide">
+			<div class="xz-item">
+				<div class="xz-selected clearfix">
+					<div id="starImg2" class="xz-img jx">
+					</div>
+					<div id="xzSelect2" class="xz-name">
+						<a id="curStar2" href="#" class="named">&nbsp;</a>
+						<span class="xz-toggle"></span>
+					</div>
+					<div id="xzSelectList2" class="jw-subbox-outer xz-subbox-outer hide">
+						<ul class="jw-subbox">
+							<li optionvalue="3">
+								<a href="#">白羊座</a>
+							</li>
+							<li optionvalue="4">
+								<a href="#">金牛座</a>
+							</li>
+							<li optionvalue="5">
+								<a href="#">双子座</a>
+							</li>
+							<li optionvalue="6">
+								<a href="#">巨蟹座</a>
+							</li>
+							<li optionvalue="7">
+								<a href="#">狮子座</a>
+							</li>
+							<li optionvalue="8">
+								<a href="#">处女座</a>
+							</li>
+							<li optionvalue="9">
+								<a href="#">天秤座</a>
+							</li>
+							<li optionvalue="10">
+								<a href="#">天蝎座</a>
+							</li>
+							<li optionvalue="11">
+								<a href="#">射手座</a>
+							</li>
+							<li optionvalue="0">
+								<a href="#">摩羯座</a>
+							</li>
+							<li optionvalue="1">
+								<a href="#">水瓶座</a>
+							</li>
+							<li optionvalue="2">
+								<a href="#">双鱼座</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="first-tit-wrap xz-starwrap">
+					<span class="starList">
+						
+					</span>
+				</div>
+			</div>
+			<div style="border-bottom:1px solid #f0f0f0; width:100%;*margin-top:-15px;_margin-top:-15px;">
+			</div>
+			<div class="xz-kindSection clearfix">
+				<span class="xz-kind clearfix">
+					<p class="point">
+						
+					</p>
+					<p class="tit">
+						爱情
+					</p>
+				</span>
+				<div style="border-left:1px solid #f0f0f0; height:34px; float:left;">
+				</div>
+				<span class="xz-kind clearfix">
+					<p class="point">
+						
+					</p>
+					<p class="tit">
+						工作
+					</p>
+				</span>
+				<div style="border-left:1px solid #f0f0f0; height:34px; float:left;">
+				</div>
+				<span class="xz-kind clearfix">
+					<p class="point">
+						
+					</p>
+					<p class="tit">
+						财运
+					</p>
+				</span>
+			</div>
+			<div style="border-bottom:1px solid #f0f0f0; width:100%;*margin-top:-15px;_margin-top:-15px;">
+			</div>
+			<div class="xz-introSec">
+				<p class="xz-intro">
+				</p>
+				<a href="#" class="more" _stag="dhv1.pac.area3.detail2">详情</a>
+			</div>
+		</div>
+</div>

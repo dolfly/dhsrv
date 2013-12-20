@@ -1,0 +1,46 @@
+<div id="module7" class="rightSeciton payBox customModule" style="display:none;">
+		<!-- 标题 -->
+		<div class="caption">
+			<a href="javascript:;" target="_self" class="clearfix inner">
+			<h2 class="captionName">充值缴费</h2>
+			<div class="rgt-cap-tool">
+				<span class="tool-icon"></span>
+				<span class="tool-name">编辑</span>
+			</div>
+			<div class="rgt-cap-tool-grey"></div>
+			</a>
+		</div>
+		<!-- tab -->
+		<div class="chaoW-tab">
+			<ul class="chaoW-tab-list clearfix">
+				<li class="select">
+					<a href="#" _stag="dhv1.pac.area5.tab1">话费</a>
+				</li>
+				<li>
+					<a href="#" _stag="dhv1.pac.area5.tab2">网游</a>
+				</li>
+				<li>
+					<a href="#" _stag="dhv1.pac.area5.tab3">Q币</a>
+				</li>
+				<li>
+					<a href="#" _stag="dhv1.pac.area5.tab4">缴费</a>
+				</li>
+			</ul>
+		</div>
+		<div class="rgt-pages rgt-pages-pay clearfix" style="display:block;">
+			<iframe class="moblie-pay" width="188" height="170" frameborder="0" scrolling="no" src="http://chong.qq.com/tws/entra/getpanel?id=229&vb2ctag=1_31_3_1198&width=225&height=225">
+			</iframe>
+		</div>
+		<div class="rgt-pages rgt-pages-pay clearfix" style="display:none;">
+			<iframe class="game-pay" width="208" height="170" frameborder="0" scrolling="no"  src="http://chong.qq.com/tws/entra/getpanel?id=230&vb2ctag=1_31_3_1198&width=220&height=225">
+			</iframe>
+		</div>
+		<div class="rgt-pages rgt-pages-pay clearfix" style="display:none;">
+			<iframe class="qbi-pay" width="228" height="190" frameborder="0" scrolling="no"  src="http://chong.qq.com/tws/entra/getpanel?id=231&vb2ctag=1_31_3_1198&width=220&height=225">
+			</iframe>
+		</div>
+		<div class="rgt-pages rgt-pages-pay clearfix" style="display:none;">
+			<iframe class="payback-pay" width="228" height="190" frameborder="0" scrolling="no"  src="http://chong.qq.com/tws/entra/getpanel?id=232&vb2ctag=1_31_3_1198&width=220&height=225">
+			</iframe>
+		</div>
+</div>

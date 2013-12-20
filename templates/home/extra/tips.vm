@@ -1,0 +1,246 @@
+<div id="tips">
+		<!-- 天气 -->
+		<div id="weatherArea" class="daywearher-Tips hide">
+			<div class="tipsCW-info pur">
+				<ul class="cityList">
+				</ul>
+				<a class="cityAdd pur" href="#">+ 添加城市</a>
+				<a class="more pur" href="#" _stag="dhv1.head.wea.more" _type="weather">更多</a>
+				<div class="todayList">
+					<h1 class="today-dc">
+						<span class="ssn"></span>
+						<span class="ssd"></span>
+					</h1>
+					<div style="border-left:1px dotted #fff; float:left; height:35px;">
+					</div>
+					<ul class="today-fs">
+						<li class="today-f">
+						</li>
+						<li class="today-s">
+						</li>
+					</ul>
+				</div>
+				<div class="dayWea-list">
+					<a href="http://weather.news.qq.com/" _stag="dhv1.head.wea.today" _type="weather" class="dayWea-li pur">
+					<p class="date">
+						今天
+					</p>
+					<div class="weaImg">
+					</div>
+					<p class="wea">
+					</p>
+					<p class="ce">
+					</p>
+					</a>
+					<a href="http://weather.news.qq.com/" _stag="dhv1.head.wea.tomorrow" _type="weather" class="dayWea-li pur">
+					<p class="date">
+						明天
+					</p>
+					<div class="weaImg">
+					</div>
+					<p class="wea">
+					</p>
+					<p class="ce">
+					</p>
+					</a>
+					<a href="http://weather.news.qq.com/" _stag="dhv1.head.wea.thirdday" _type="weather" class="dayWea-li pur">
+					<p class="date">
+					</p>
+					<div class="weaImg">
+					</div>
+					<p class="wea">
+					</p>
+					<p class="ce">
+					</p>
+					</a>
+				</div>
+			</div>
+			<div class="tipsKS-info hide">
+				<dl class="K-info">
+					<dt>
+					</dt>
+					<dd>
+					</dd>
+					<dd>
+					</dd>
+					<dd>
+					</dd>
+					<dd>
+					</dd>
+				</dl>
+				<div style="border-left:1px dotted #a3a3a3; float:left; height:110px;">
+				</div>
+				<dl class="S-info">
+					<dt>
+						生活指数
+					</dt>
+					<dd>
+					</dd>
+					<dd>
+					</dd>
+					<dd>
+					</dd>
+					<dd>
+					</dd>
+				</dl>
+			</div>
+			<div class="tipsKS-info-nokq hide" style="display:none;">
+				<dl class="S-info">
+					<dt>
+						生活指数
+					</dt>
+					<dd>
+					</dd>
+					<dd>
+					</dd>
+					<dd>
+					</dd>
+					<dd>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<!-- 添加城市 -->
+		<div id="addCityArea" class="cityadd-Tips hide">
+			<ul class="cityList">
+			</ul>
+			<a class="back" href="#">返回</a>
+			<div class="city-subass">
+				<p class="city-subassName">
+					添加城市：
+				</p>
+				<div class="city-subassSet clearfix">
+					<select id="provinceSelect" class="province">
+					</select>
+					<select id="citySelect" class="town">
+					</select>
+				</div>
+				<div class="city-subassBtn clearfix">
+					<a href="#" class="ensure pur">确定</a>
+					<a href="#" class="cancel">取消</a>
+				</div>
+			</div>
+		</div>
+		<!-- 我的导航添加tips -->
+		<div id="addSiteDialog" class="madeDiv-tips" style="z-index:2000;display:none;">
+			<h3>
+			<a class="madedivClosed" href="javascript:;" target="_self" _stag="dhv1.mynav.add.clo"></a> 添加网址
+			</h3>
+			<div class="madeDiv-cont">
+				<ul>
+					<li class="error">
+						<label>
+							名称：
+						</label>
+						<input type="text" tabindex="1" placeholder="请输入网站名称"/>
+						<span>请输入名称</span>
+					</li>
+					<li class="normal">
+						<label>
+							网址：
+						</label>
+						<input type="text" tabindex="1" placeholder="请输入网址名称"/>
+						<span>请输入网址</span>
+					</li>
+				</ul>
+				<p>
+					最多可添加<span style="color:#f00;">30</span>个网址，还可以添加<span class="leftSite" style="color:#f00;"></span>个
+				</p>
+			</div>
+			<div class="madeDiv-btn">
+				<input type="button" value="确定" class="madeBtn confirm" _stag="dhv1.mynav.add.cer"/>
+				<input type="button" value="取消" class="madeBtn cancel" _stag="dhv1.mynav.add.can"/>
+			</div>
+		</div>
+		<!-- gotop1024 -->
+		<div id="norScreenSide" class="gotop1024"  style="display:none;">
+			<div class="gotop-infobox">
+				<div class="homeset1024 gotop-bg">
+					<a class="sethomepage" href="#" _stag="dhv1.tool.sethome">设为主页</a>
+				</div>
+				<div class="jwinform1024 gotop-bg">
+					<a title="QQ空间" href="http://qzone.qq.com/" _stag="dhv1.tool.1" class="qzone hide"><div class="qzone1024 gtif-icon1024"></div><span class="red-notice hide"></span></a>
+					<a title="腾讯微博" href="http://t.qq.com/" _stag="dhv1.tool.2" class="weibo hide"><div class="weibo1024 gtif-icon1024"></div><span class="red-notice hide"></span></a>
+					<a title="QQ邮箱" href="http://mail.qq.com/" _stag="dhv1.tool.3" class="qmail hide"><div class="qmail1024 gtif-icon1024"></div><span class="red-notice hide"></span></a>
+					<a title="微信网页版" href="https://wx.qq.com/" _stag="dhv1.tool.4"><div class="weixin1024 gtif-icon1024"></div></a>
+				</div>
+			</div>
+				<div class="goto-top ggtop1024 gogotop-bg hide">
+					<a href="javascript:;" target="_self" _stag="dhv1.tool.top"><div class="ggt-icon1024"></div><p>回到顶部</p></a>
+				</div>
+		</div>
+		<!-- gotop1024 -->
+			<!-- gotopnor -->
+			<div id="wideScreenSide" class="gotopnor" style="display:none;">
+				<div class="gotop-infobox">
+				<div class="homesetnor gotop-bg">
+					<a class="sethomepage" href="#" _stag="dhv1.tool.sethome">设为主页</a>
+				</div>
+				<div class="jwinform-nor gotop-bg">
+					<a title="QQ空间" href="http://qzone.qq.com/" _stag="dhv1.tool.1" class="qzone hide"><div class="qzone-nor gtif-icon"></div><span></span></a>
+					<a title="腾讯微博" href="http://t.qq.com/" _stag="dhv1.tool.2" class="weibo hide"><div class="weibo-nor gtif-icon"></div><span></span></a>
+					<a title="QQ邮箱" href="http://mail.qq.com/" _stag="dhv1.tool.3" class="qmail hide"><div class="qmail-nor gtif-icon"></div><span></span></a>
+					<a title="微信网页版" href="https://wx.qq.com/" _stag="dhv1.tool.4"><div class="weixin-nor gtif-icon"></div></a>
+				</div>
+				</div>
+				<div class="goto-top ggtop-nor gotop-bg hide">
+					<a href="javascript:;" target="_self" _stag="dhv1.tool.top"><div class="ggt-icon-nor"></div></a>
+				</div>
+			</div>
+			<!-- gotopnor -->
+		<!-- tishi -->
+		<div class="ts-tq" id="ts-tianqi" style="display:none;">
+			<a href="javascript:;" target="_self" class="ts-closed" _stag="dhv1.head.tips.1"></a>
+		</div>
+		<div class="ts-tj" id="ts-tuijian"  style="display:none;">
+			<a href="javascript:;" target="_self" class="ts-closed" style="" _stag="dhv1.head.tips.4"></a>
+		</div>
+		<div class="ts-dl" id="ts-denglu" style="display:none;">
+			<a href="javascript:;" target="_self" class="ts-closed" style="margin-right:100px;_margin-right:50px;" _stag="dhv1.head.tips.2"></a>
+		</div>
+		<div class="ts-hf" id="ts-huanfu" style="display:none;">
+			<a href="javascript:;" target="_self" class="ts-closed" _stag="dhv1.head.tips.3"></a>
+		</div>
+		<div class="ts-rl" id="ts-rili" style="display:none;"> 
+			<a href="javascript:;" target="_self" class="ts-closed" _stag="dhv1.head.tips.1"></a> 
+		</div>
+		<div class="ts-bj" id="ts-bianji" style="display:none;"> 
+			<a href="javascript:;" target="_self" class="ts-closed" _stag="dhv1.head.tips.4"></a> 
+		</div>
+		<!-- tishi end-->
+		<!-- 模块编辑 -->
+		<div id="moduleEditPanel" class="side-main hide" style="z-index:9999;">
+			<div class="side-box">
+				<h4>设置4个你喜欢的内容</h4>
+				<a class="icon-close2" href="#"></a>
+				<ul class="side-ul">
+					<li class="side-now" _ref="1"><a href="#" class="icon-xuan"></a>
+						<p><span class="side-name">新闻</span><span><a href="#" class="a-prve2"></a><a href="#" class="a-next2"></a></span></p>
+					</li>
+					<li class="side-now" _ref="2"><a href="#" class="icon-xuan"></a>
+						<p><span class="side-name">视频</span><span><a href="#" class="a-prve2"></a><a href="#" class="a-next2"></a></span></p>
+					</li>
+					<li class="side-now" _ref="6"><a href="#" class="icon-xuan"></a>
+						<p><span class="side-name">彩票</span><span><a href="#" class="a-prve2"></a><a href="#" class="a-next2"></a></span></p>
+					</li>
+					<li class="side-now" _ref="7"><a href="#" class="icon-xuan"></a>
+						<p><span class="side-name">充值</span><span><a href="#" class="a-prve2"></a><a href="#" class="a-next2"></a></span></p>
+					</li>
+					<li _ref="3"><a href="#" class="icon-xuan"></a>
+						<p><span class="side-name">邮箱</span><span class="hide"><a href="#" class="a-prve2"></a><a href="#" class="a-next2"></a></span></p>
+					</li>
+					<li _ref="4"><a href="#" class="icon-xuan"></a>
+						<p><span class="side-name">星座</span><span class="hide"><a href="#" class="a-prve2"></a><a href="#" class="a-next2"></a></span></p>
+					</li>
+					<li _ref="5"><a href="#" class="icon-xuan"></a>
+						<p><span class="side-name">股票</span><span class="hide"><a href="#" class="a-prve2"></a><a href="#" class="a-next2"></a></span></p>
+					</li>
+				</ul>
+				<a href="#" class="save a-blue" style="margin-left:5px;">保存</a>
+				<a href="#" class="restore a-blue">恢复默认</a>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<!-- 模块编辑end -->
+		{% include 'home/extra/calendar.vm' %}
+</div>
